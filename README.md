@@ -81,7 +81,7 @@ Each user and item is a k-dimensional point within an embedding space. Embedding
 
 Our goal is to factorize the ratings matrix $A$ into the product of a user embedding matrix $U$ and movie embedding matrix $V$, such that:
 
- $A \approx UV^\top$ with
+$A \approx UV^\top$ with
 $U = \begin{bmatrix} u_{1} \\ \hline \vdots \\ \hline u_{N} \end{bmatrix}$ and
 $V = \begin{bmatrix} v_{1} \\ \hline \vdots \\ \hline v_{M} \end{bmatrix}$.
 
